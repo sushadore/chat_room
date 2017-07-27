@@ -1,0 +1,10 @@
+development:
+  adapter: async
+
+test:
+  adapter: async
+
+production:
+  adapter: async
+  url: redis://localhost:3000
+  # channel_prefix: roberts_rules_remote_production 
