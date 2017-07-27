@@ -1,24 +1,27 @@
-# README
+# Robert's Rules Remote
+An app to include remote participants in meetings and organizations.
+## Set Up
+  * clone repository
+  * `rails db:setup`
+  * `rails s`
+  * new terminal window `redis-server`
+  * Open two browser windows and nagivate to http://localhost:3000/ in both
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Stretch
+  * test, test, test!
+  * change room to issue or meeting() or assembly add schedule to assembly
+  * timestamp to user posts
+  * robert's rules interactivity: make motion, second motion, vote, point of order possibly radio buttons etc
+  * Live video feed
+  * admin function also look into CanCanCan
+  * CRUD
+  * permanent record storage of topics and interactions
+  * voting acts_as_votable rails_rest_vote make_voteable
+  * secure user validation (birthdate, ssn, voter registration status, address, etc)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Technologies
+Ruby, Rails, PostgresSQL, ActionCable, Javascript  
+### Author
+Susha Dore
+### Licence
+MIT license
